@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="topLeft"><h1><span class="task">Tasks</span ><span class="list">List</span></h1></div>
+    <div class="topright">
+        <button onclick="showPop()" id="Plusbutton" class="but">+</button>
+        <span class="text1">Add item</span>
+    </div>
+    <div id="add-card-popup">
+        <div class="both">
+            <p class="p">Add New Task</p>
+            <input type="text" placeholder="Add new task" id="card-input-text" class="input_box">
+            <div class="button">
+                <span>
+                    <button onclick="handleAddCard()" class="addT">ADD</button>
+                    <button onclick="closeAddCardPopup()" class="close">Close</button></span>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="card-container" class="card1">
+    
+    </div>
+    <div class="popup2" id="popup2">
+        <div class="both">
+          <p class="q">Add new item in Card</p>
+          <input type="text" placeholder="Add new task" class="inp2" id="card-content-input"/>
+        </div> 
+        <div class="buttons">  
+          <button onclick="addContentToCard()" class="addtask addT" id="addtask" > Add </button> 
+          <button onclick="removeAddContentToCardPopup()" class="closetask close">Close </button>
+        </div> 
+      </div>
+    <script src="./index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 

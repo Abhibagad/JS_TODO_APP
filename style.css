@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    width: 99%;
+}
+.task{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+}
+.list{
+  margin-left: 5px;
+    color: white;
+    font-size: ;
+}
+.topLeft{
+    display: inline;  
+}
+.topright{
+    display: inline;
+    margin-left: 800px;
+    margin-top: 0px;
+   
+}
+.but{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.text1{
+    color: white;
+    
+}
+#add-card-popup{
+    height: 180px;
+    width: 350px;
+    border-radius: 1px solid red;
+    background-color: rgb(224, 255, 245);
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+.p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.input_box{
+    width: 300px;
+    height: 20px;
+    margin-left: 21px;
+}
+.addT{
+    width: 80px;
+    border-radius: 25px;
+    margin-left: 90px;
+    margin-top: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.close{
+    width: 80px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.card1{
+        display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:left;
+    margin-left: 70px;
+}
+
+.card{
+    border: 1px solid ;
+    background-color: white;
+    width: 160px;
+    height: 250px;
+    border-radius: 10px;
+     /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+    /* justify-content: space-between;  */
+}
+.p2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(231, 15, 51);
+}
+.delete{
+display: flex;
+flex-wrap: nowrap;
+position: absolute;
+margin-left: 95px;
+top: 330px;
+border-radius: 50%;
+color: red;
+height: 22px;
+width: 30px;
+}
+.add{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-left: 130px;
+    top: 330px; 
+    border-radius: 50%;
+    color: red;
+    height: 22px;
+width: 25px;
+}
+
+.popup2{
+    height: 180px;
+    width: 350px;
+    border-radius: 1px solid red;
+    background-color: rgb(224, 255, 245);
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+.q{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 55px;
+}
+.inp2{
+    width: 300px;
+    height: 20px;
+    margin-left: 21px; 
+}
+
+.checked{
+    text-decoration: line-through;
+    color: blue;
+}
