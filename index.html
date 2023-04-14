@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="topLeft"><h1><span class="task">Tasks</span ><span class="list">List</span></h1></div>
+    <div class="topLeft"><h1><span class="task" id="head">Tasks</span ><span class="list">List</span></h1></div>
     <div class="topright">
+        <div id="addbtn1">
         <button onclick="showPop()" id="Plusbutton" class="but">+</button>
-        <span class="text1">Add item</span>
+        <span class="text1">Add item</span></div>
+        <button id="back" onclick="backToAll()">Back</button>
     </div>
     <div id="add-card-popup">
         <div class="both">
@@ -26,7 +28,7 @@
         </div>
     </div>
 
-    <div id="card-container" class="card1">
+    <div id="card-container" class="card1 cardHeading">
     
     </div>
     <div class="popup2" id="popup2">
